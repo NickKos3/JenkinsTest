@@ -12,7 +12,7 @@ namespace XUnitTestProject1
             var temperatureHints = new TemperatureHints();
 
             Assert.Equal(temperatureHints.GetHintDependOnTemperature(3), "warm");
-            Assert.Equal(temperatureHints.GetHintDependOnTemperature(5), "warm");
+            Assert.Equal(temperatureHints.GetHintDependOnTemperature(52), "warm");
         }
     }
 }
